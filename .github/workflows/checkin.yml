@@ -9,6 +9,7 @@ on:
     # 避开整点高峰，并通过第二次执行降低 GitHub Actions 排队延迟造成的漏打卡概率
     - cron: '15 13 * * *'
     - cron: '45 13 * * *'
+    - cron: '15 14 * * *'
   workflow_dispatch:  # 允许手动触发
 
 jobs:
